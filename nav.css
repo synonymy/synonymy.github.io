@@ -28,7 +28,7 @@ li{
 }
 .navbar{
     max-width: 1190px;
-    min-width: 500px;
+    min-width: 290px;
     margin: 0 auto;
     position: relative;
     height: 45px;
@@ -136,9 +136,4 @@ li{
         margin: 0.2em;
     }
     
-    @media screen and (max-width: 450px){
-        .home a{
-            margin-left:-50px;
-        }
-    }
 }
