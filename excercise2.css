@@ -12,9 +12,9 @@
     left: 50%;
     margin-left:-150px;
     position: relative;
-    display: inline-block;
     border: 1px solid aquamarine;
     border-radius: 10px;
+    display: inline-block;
 }
 .ansBut a{
     font-family: 'Kanit','sans-serif';
@@ -22,8 +22,7 @@
     padding: 5px;
     color:whitesmoke;
     background:aquamarine;
-    border: 1px solid aquamarine;
-    border-radius: 10px;
+
 }
 .ansBut a:hover{
     color: aquamarine;
