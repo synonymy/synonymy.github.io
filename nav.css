@@ -28,7 +28,7 @@ li{
 }
 .navbar{
     max-width: 1190px;
-    min-width: 290px;
+    min-width: 0px;
     margin: 0 auto;
     position: relative;
     height: 45px;
@@ -100,9 +100,10 @@ li{
 }
 .menu2 li{
     display: block;
-    text-align: center;
+    text-align: left;
     margin:5em;
     margin-top: 5em;
+    margin-left:70px;
 }
 .menu2 a{
     text-decoration: none;
