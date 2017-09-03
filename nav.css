@@ -42,7 +42,6 @@ li{
     font-weight: bold;
     color:aquamarine;
     margin-top: 5px;
-    
 }
 
 .home a{
@@ -62,7 +61,7 @@ li{
     margin-left: -10px;
 }
 .menubutton{
-    
+
 }
 
 .index{
@@ -135,5 +134,11 @@ li{
     }
     .wordindex {
         margin: 0.2em;
+    }
+    
+    @media screen and (max-width: 450px){
+        .home a{
+            margin-left:-50px;
+        }
     }
 }

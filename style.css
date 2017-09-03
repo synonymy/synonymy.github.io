@@ -80,6 +80,7 @@ body {
     border-bottom-right-radius: 10px ;
     border:solid aliceBlue;
     width: 75%;
+    min-width: 450px;
     margin: 0 auto;
     background-color:white;
     box-shadow: 1px 1px 1px 1px grey;
