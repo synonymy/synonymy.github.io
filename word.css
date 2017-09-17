@@ -85,3 +85,8 @@ table, th, td{
     border:1px solid cadetblue;
     border-radius: 5px;
 }
+@media screen and (max-width:580px){
+    table{
+      margin-left: -50px;
+    }
+}

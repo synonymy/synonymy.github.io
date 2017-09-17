@@ -19,7 +19,7 @@ body {
     font-family: 'Kanit',sans-serif;
     font-size: 200%;
     margin: 0px;
-    
+
 }
 
 
@@ -33,20 +33,24 @@ body {
     top: 250px;
     border: 1px solid aquamarine;
     border-radius: 5px;
-    
+
 }
 
 .content1{
     text-align: center;
-    width:50%;
+    width:75%;
     margin: 0 auto;
     border:1px solid cadetblue;
     border-radius: 5px;
-    padding: 15px;
+    padding: 50px;
     margin-top: 50px;
     font-family: 'Kanit',sans-serif;
     font-size: 125%;
-    color:cadetblue;
+    color: cadetblue;
+    margin-bottom: 50px;
+}
+.content1 h1{
+    text-decoration: underline;
 }
 
 .menubar {
@@ -61,7 +65,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 20px;
-    font-family:'Kanin',sans-serif;
+    font-family:'Kanit',sans-serif;
     border:1px solid cadetblue;
     border-radius: 5px;
     padding: 20px;
