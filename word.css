@@ -40,7 +40,7 @@ th{
 }
 @media screen and (max-width: 400px){
     td:nth-child(1){
-      max-width: 90px;
+      max-width: 88px;
     }
 }
 td{
