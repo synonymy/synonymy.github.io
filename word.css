@@ -32,7 +32,7 @@ th{
 }
 @media screen and (max-width: 580px){
     td:nth-child(2){
-      max-width: 100px;
+      max-width: 80px;
       overflow: hidden;
     }
 }
