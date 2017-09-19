@@ -6,8 +6,13 @@ function main(){
     });
     $('.page').hover(function(){
         $('.panel').slideUp(400);
+
     })
-    
+    $('.search').addClass("showBut");
+    $('.panel').hover(function(){
+        $('.search').toggleClass("highlight1");
+        $('.search').toggleClass("showBut");
+    })
     $('.menu2').hide();
     $('.toggle-nav').on('click',function(){
         $('.menu2').slideToggle();
@@ -19,11 +24,8 @@ function main(){
             $('.panel').slideUp();
         })
     })
-    
+
     $('a.toggle-nav').click(function(e){
         e.preventDefault();
     })
 }
-
-
-

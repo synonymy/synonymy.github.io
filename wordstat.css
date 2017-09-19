@@ -1,6 +1,6 @@
 #indexword a{
-    color: cadetblue;
-    border-bottom: 10px solid cadetblue;
+    color: #ff3;
+    border-bottom: 10px solid #ff3;
     padding-bottom: -5px;
 }
 #indexword a:hover{

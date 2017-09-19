@@ -3,6 +3,7 @@ h1{
     margin-bottom: 15px;
 }
 .about{
+    box-sizing: border-box;
     display: block;
     float: left;
     width: 50%;
@@ -11,7 +12,7 @@ h1{
     font-size: 12px;
     height: 50px;
     line-height: 2em
-    
+
 }
 .about a{
     text-decoration: none;
@@ -23,6 +24,8 @@ h1{
 }
 
 .footnote{
+    box-sizing: border-box;
+    overflow: hidden;
     width: 50%;
     float: left;
     padding: 25px;
@@ -32,10 +35,20 @@ h1{
     position: relative;
     width:100%;
     background-color: yellow;
-    
+
 }
 .footnote1{
     float :left;
     padding: 25px;
     width: 40%;
+}
+@media screen and (max-width: 580px){
+    .about{
+        display:block;
+        width: 100%;
+    }
+    .footnote{
+        margin-left: 0;
+        width: 100%;
+    }
 }

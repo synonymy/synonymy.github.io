@@ -10,17 +10,17 @@ li{
     width: 100%;
     top: 0px;
     left: 0px;
-    height: 45px;
+    height: 70px;
     background-color: white;
     z-index: 1000;
 }
 
 .globalnavbar{
-    background-color:white;
+    background-color:#003;
     text-transform:uppercase;
     position: relative;
     width: auto;
-    height: 45px;
+    height: 70px;
     box-shadow: 0px 0px 1px 1px grey;
     text-align: center;
     overflow: hidden;
@@ -31,12 +31,14 @@ li{
     min-width: 0px;
     margin: 0 auto;
     position: relative;
-    height: 45px;
+    height: 70px;
 
 }
 .homearea{
+    height: 25px;
     position: relative;
     width: 100%;
+    box-sizing: border-box;
     min-width: 0px;
     left: 10px;
 }
@@ -45,15 +47,16 @@ li{
     color:aquamarine;
     margin-top: 5px;
     float: left;
-
 }
 
 .home a{
+    width: 100%;
     font-family: 'Kanit',sans-serif;
     text-decoration: none;
-    color: aquamarine;
-    border-radius: 5px;
-    border:1px solid aquamarine;
+    color: #ff3;
+    background-color: gr;
+    border-radius: 20px;
+    border:1px solid #ff3;
     padding: 5px;
     display: inline-block;
 }
@@ -62,6 +65,7 @@ li{
     display: inline;
     position: relative;
     top: 18px;
+    font-weight: 800;
 }
 .menubutton{
     position: relative;
@@ -74,16 +78,17 @@ li{
     text-decoration: none;
     margin: 10px;
     font-family: 'Kanit',sans-serif;
-    color: grey;
+    color: white;
 }
 .index a:hover{
-    color: cadetblue;
+    color: #ff3;
     animation: ease;
 }
 .toggle-nav {
     float:right;
+    margin-right:0.2em;
     position: relative;
-    color: aquamarine;
+    color: #ff3;
     font-size: 2em;
     visibility: hidden;
     margin-left: 1em;
@@ -100,6 +105,7 @@ li{
     background: white;
     position: fixed;
     top:-0.1em;
+    background-color: #003;
 }
 .menu2 li{
     display: block;
@@ -111,7 +117,7 @@ li{
 .menu2 a{
     text-decoration: none;
     font-size: 3em;
-    color: cadetblue;
+    color: #ff3;
 }
 @media screen and (min-width:580px){
     .menu2{
