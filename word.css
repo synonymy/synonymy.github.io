@@ -74,22 +74,25 @@ table, th, td{
     z-index:100;
 }
 .wordindex a{
-    border: 1px solid #003;
+    border: 2px solid #003;
     padding: 10px;
     color: #003;
-    font-size: 50px;
+    font-size: 30px;
     background: #ff3;
     border-radius: 100px;
     text-decoration: none;
+    width: 100%;
 }
 .wordindex a:hover{
-    background-color: aquamarine;
+    background-color: #003;
     color: white;
-    border: 1px solid aquamarine;
-    border-radius: 100px;
+}
+.wordindex li:hover{
+    transform: scale(1.2);
 }
 .wordindex li{
     margin: 15px;
+    transition: all 0.2s ease-in;
 }
 .showBut {
     text-align: center;
@@ -98,7 +101,7 @@ table, th, td{
     color: white;
 }
 .showBut a{
-  
+
     text-decoration: none;
     padding: 5px;
 }

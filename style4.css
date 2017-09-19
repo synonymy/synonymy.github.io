@@ -90,11 +90,11 @@ body {
 }
 .label:hover{
     #animation picture;
-    opacity: 0.5;
+    opacity: 0.6;
     transition: 0.70s;
     -webkit-transform: rotate(2deg);
-    -webkit-transform: scale(1);
     transform: rotate(2deg);
+    transform: scale(1.05);
 
 }
 .wordlab{
