@@ -7,8 +7,9 @@ body {
     background-color:#ff3;
     background-attachment: fixed;
 }
-
-
+.head{
+    margin-top: 50px;
+}
 
 .mainhead{
     background:url("wallpaper.png") no-repeat bottom center;
