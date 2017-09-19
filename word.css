@@ -50,9 +50,10 @@ table, th, td{
     z-index:100;
 }
 .wordindex a{
-    border: 1px solid cadetblue;
+    border: 1px solid purple;
     padding: 10px;
-    color: aquamarine;
+    color: purple;
+    background: yellow;
     border-radius: 100px;
     text-decoration: none;
 }

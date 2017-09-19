@@ -2,10 +2,11 @@
     font-family: 'Kanit',sans-serif;
     text-align: center;
     font-size: 22px;
+    margin-bottom: 50px;
 }
 
 .page {
-    width: 75%;
+    max-width: 1042px;
     border: 1px solid cadetblue;
     border-radius: 5px;
     display: block;
@@ -18,6 +19,8 @@
     padding: 50px;
     margin-bottom: 50px;
     margin-top: 20px;
+    min-width: 100px;
+    box-sizing: border-box;
 }
 .menu a{
 
@@ -30,4 +33,7 @@ img {
   min-width: 100px;
   position: relative;
 
+}
+.excercisehead{
+  text-decoration: underline;
 }

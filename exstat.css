@@ -1,0 +1,8 @@
+#indexex a{
+    color: cadetblue;
+    border-bottom: 10px solid cadetblue;
+    padding-bottom: -5px;
+}
+#indexex a:hover{
+    opacity: 0.6;
+}

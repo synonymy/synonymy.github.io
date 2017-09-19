@@ -1,0 +1,164 @@
+*{
+    left:0px;
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color:cadetblue;
+    background-attachment: fixed;
+}
+
+
+
+.mainhead{
+    background:url("wallpaper.png") no-repeat bottom center;
+    background-attachment:fixed;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    font-family: 'Kanit',sans-serif;
+    font-size: 200%;
+    margin: 0px;
+
+}
+
+
+#synonym{
+    color: aquamarine;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    display:inline;
+    padding: 40px;
+    top: 250px;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+
+}
+
+.content1{
+    text-align: center;
+    width:75%;
+    margin: 0 auto;
+    border:1px solid cadetblue;
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 50px;
+    font-family: 'Kanit',sans-serif;
+    font-size: 125%;
+    color: cadetblue;
+    margin-bottom: 50px;
+}
+.content1 h1{
+    text-decoration: underline;
+}
+.menulist{
+     box-sizing: border-box;
+     display: inline-block;
+     width: 100%;
+     margin: 0 auto;
+}
+.menubar {
+    float : left;
+    min-width: 1px;
+    min-height: 1px;
+    box-sizing: border-box;
+    width: 20%;
+    display: block;
+    background: white;
+    border: 1px solid purple;
+    background: grey;
+
+}
+.responsivepage{
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+
+}
+.piclab{
+    box-sizing: border-box;
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 1px;
+    min-height: 1px;
+}
+.label{
+    -webkit-transition: 0.70s;
+}
+.label:hover{
+    #animation picture;
+    opacity: 0.5;
+    transition: 0.70s;
+    -webkit-transform: rotate(2deg);
+    -webkit-transform: scale(1);
+    transform: rotate(2deg);
+
+}
+.wordlab{
+    width: 100%;
+    max-width: 200px;
+    font-family: 'Kanit',sans-serif;
+    font-size: 15px;
+    background: yellow;
+    min-width: 1px;
+    box-sizing: border-box;
+    overflow: hidden;
+    max-height: 120px;
+    min-height: 120px;
+}
+.explain{
+    color: purple;
+    display: inline-block;
+    padding: 15px;
+}
+.explain:hover{
+    color: cadetblue;
+}
+
+.box1 {
+    position: static;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    border:solid aliceBlue;
+    width: 75%;
+    min-width: 350px;
+    margin: 0 auto;
+    background-color:white;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 900px){
+    .menubar{
+      width: 25%;
+
+    }
+}
+@media screen and (max-width: 750px){
+    .wordlab{
+      font-size: 15px;
+    }
+}
+@media screen and (max-width: 650px){
+    .menubar{
+        width: 33.3%;
+    }
+}
+@media screen and (max-width: 510px){
+    .menubar{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 480px){
+    .wordlab{
+      font-size: 15px;
+    }
+    .explain{
+      padding: 12px;
+    }
+}
+
+}

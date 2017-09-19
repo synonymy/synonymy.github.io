@@ -1,0 +1,8 @@
+#indexhome a{
+    color: cadetblue;
+    border-bottom: 10px solid cadetblue;
+    padding-bottom: -5px;
+}
+#indexhome a:hover{
+    opacity: 0.6;
+}

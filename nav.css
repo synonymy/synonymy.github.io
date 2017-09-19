@@ -23,25 +23,29 @@ li{
     height: 45px;
     box-shadow: 0px 0px 1px 1px grey;
     text-align: center;
-    overflow: hidden; 
+    overflow: hidden;
     min-width: 610px;
 }
 .navbar{
-    max-width: 1190px;
+    max-width: 100%;
     min-width: 0px;
     margin: 0 auto;
     position: relative;
     height: 45px;
+
 }
 .homearea{
     position: relative;
     width: 100%;
     min-width: 0px;
+    left: 10px;
 }
 .home{
     font-weight: bold;
     color:aquamarine;
     margin-top: 5px;
+    float: left;
+
 }
 
 .home a{
@@ -55,17 +59,16 @@ li{
 }
 
 .menu{
-    position: absolute;
-    float: left;
-    top: 5px;
-    margin-left: -10px;
+    display: inline;
+    position: relative;
+    top: 18px;
 }
 .menubutton{
-
+    position: relative;
 }
 
 .index{
-    
+
 }
 .index a{
     text-decoration: none;
@@ -78,11 +81,11 @@ li{
     animation: ease;
 }
 .toggle-nav {
-    float: left;
+    float:right;
+    position: relative;
     color: aquamarine;
     font-size: 2em;
     visibility: hidden;
-    position: fixed;
     margin-left: 1em;
     text-decoration: none;
     z-index: 10000;
@@ -120,7 +123,7 @@ li{
         visibility: hidden;
         width: 100%;
     }
-    
+
     .globalnavbar {
         min-width: 0%;
         width: 100%;
@@ -137,5 +140,5 @@ li{
     .wordindex {
         margin: 0.2em;
     }
-    
+
 }
