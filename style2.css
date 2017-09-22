@@ -12,13 +12,22 @@
     margin-bottom: 50px;
     margin-top: 40px;
     display: inline-block;
+    color: #003;
+}
+.abouts{
+    font-size:52px;
+    font-family: 'Kanit',sans-serif;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: #003;
 }
 
 p {
     text-align: left;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 22px;
     display: inline;
+    color: #003;
 }
 
 .page {

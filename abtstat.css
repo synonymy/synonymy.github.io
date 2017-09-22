@@ -1,0 +1,8 @@
+#indexabt a{
+    color: #ff3;
+    border-bottom: 10px solid #ff3;
+    padding-bottom: -5px;
+}
+#indexabt a:hover{
+    opacity: 0.6;
+}
