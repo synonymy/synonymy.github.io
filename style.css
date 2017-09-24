@@ -16,19 +16,53 @@ body {
     background-position: center;
     background-attachment:scroll;
     background-size:cover;
-    height: 500px;
+    height: 100%;
     min-width: 25%;
     text-align: center;
     font-family: 'Kanit',sans-serif;
     font-size: 200%;
     margin: 0px;
+    margin-top: 70px;
     transition: all 0.3s ease-out;
 
 }
+@media screen and (max-width: 2000px){
+    .mainhead{
+        margin-top: 70px;
+        height: 500px;
+        max-height: 500px;
+    }
+}
+@media screen and (max-width: 1500px){
+    .mainhead{
+        margin-top: 70px;
+        height: 350px;
+        max-height: 350px;
+    }
+  }
+@media screen and (max-width: 1200px){
+    .mainhead{
+        margin-top: 70px;
+        height: 200px;
+        max-height: 200px;
+
+    }
+}
+@media screen and (max-width: 800px){
+    .mainhead{
+        margin-top: 70px;
+        height: 140px;
+        max-height: 140px;
+        overflow: hidden;
+    }
+    .exhead{
+
+    }
+  }
+
 .wordhead{
     background:url("wordlist.jpg");
     background-attachment: scroll;
-    background-repeat: repeat-x;
     transform: scaleX(1.1);
     background-position: center;
     background-size: cover;
@@ -40,7 +74,7 @@ body {
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
-    margin-left:-200px;
+    margin-left: -200px;
     height: 500px;
     transition: 0.3s ease-out;
 }
